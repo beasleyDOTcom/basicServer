@@ -15,9 +15,9 @@ const app = express()
 const PORT = process.env.PORT;
 app.use(express.static('./public'));
 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
+// app.get('/', function (req, res) {
+//   res.send('Hello World')
+// })
 
 
 
